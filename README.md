@@ -3,7 +3,7 @@ This script provides hot reload functionality by monitoring a directory for file
 
 Ideal for development environments, it streamlines workflows by automatically refreshing or rebuilding applications whenever code is updated, enabling a more responsive and iterative development process. This approach eliminates the need for manual restarts, saving time and improving productivity.
 
-Here's the callback function, set it however you'd like your hot-reload to be handled:
+Here's the callback function's structure, set it however you'd like your hot-reload to be handled:
 ```python
 def file_changed(filename, change_type):
     print(f"File {filename} {change_type}!")    
